@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn run test:unit impl.test.js
+
+PATH: 
+  /usr/local/opt/gettext/bin:/Users/vinnie/.rbenv/shims:/Users/vinnie/.rbenv/bin:/Users/vinnie/.evbdevtools/arcanist/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vinnie/.nvm/versions/node/v12.13.0/bin:/usr/local/opt/gettext/bin:/Users/vinnie/.rbenv/shims:/Users/vinnie/.rbenv/bin:/Users/vinnie/.evbdevtools/arcanist/bin:/Users/vinnie/.fzf/bin:/Users/vinnie/Library/Android/sdk/platform-tools:/Users/vinnie/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "pagination",
+    "version": "0.0.1",
+    "description": "",
+    "main": "impl.js",
+    "scripts": {
+      "test": "jest"
+      "test:unit": "jest"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "jest": "^24.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/vinnie/Projects/pagination/package.json: Unexpected string in JSON at position 128
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103:13
